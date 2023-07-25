@@ -2,6 +2,7 @@ import Card from './Card';
 
 export default function Cards(props) {
    const {characters} = props;
+   const {onCLose} = props;
    return( <div>
             {
                characters.map(charac =>{
@@ -15,7 +16,7 @@ export default function Cards(props) {
                   gender={charac.gender}
                   origin={charac.origin.name}
                   image={charac.image}
-                  onClose={() => window.alert('Emulamos que se cierra la card')}
+                  onClose={onCLose}
                   />
                   );
                })

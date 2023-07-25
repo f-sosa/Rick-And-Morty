@@ -1,0 +1,14 @@
+.container{
+width: 200px;
+height: 200px;
+margin-bottom: 20px;
+display: flex;
+}
+
+
+
+.image-container {
+    background-color: blue; 
+    padding: 2px;
+    margin:  0 18px;
+  }

@@ -1,9 +1,9 @@
-import Card from './Card';
-
+import Card from "../Card/Card.jsx";
+import "./cards.css";
 export default function Cards(props) {
    const {characters} = props;
    const {onCLose} = props;
-   return( <div>
+   return( <div className='cards'>
             {
                characters.map(charac =>{
                   return(

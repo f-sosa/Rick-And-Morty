@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ background: url(../src/img/rick.jpg) no-repeat center top;
+ background-size: cover;
+ width: 100vw;
+  height: 100vh;
 }
 
 code {
